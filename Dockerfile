@@ -16,6 +16,7 @@ RUN apt -y update \
     && apt -y dist-upgrade \
     && apt -y install bash nano procps tini \
     && apt -y install curl unzip jq \
+    && apt -y install tar \
     && apt -y autoremove \
     && apt -y autoclean \
     && apt -y clean \
