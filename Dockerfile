@@ -1,5 +1,5 @@
 ## Using bullseye instead of latest to prevent accidental upgrade before everything else is ready ##
-ARG FRM='debian:bullseye-slim'
+ARG FRM='debian:bookworm-slim'
 ARG TAG='latest'
 ARG DEBIAN_FRONTEND='noninteractive'
 
